@@ -7,14 +7,12 @@
 	font-size:25px;
 	font-family:verdana;
 	text-align:left;
-	margin-top:5px;
-	float: left;
+	margin-top:0px;
+	float:left;
 	margin:0px;
 	line-height:50px;
 	padding-left:9px;
-	display:block
 			}
-	
 button {
   background-color: #4CAF50;
   color: white;
@@ -24,28 +22,6 @@ button {
   cursor: pointer;
   width: 10%;
 }
-
-.like {
-  width: 30px;
-  height: 30px;
-}
-
-.dislike {
-	width: 30px;
-	height: 30px;
-  }
-
-.views {
-	font-size: 15px;
-  }
-
-.avatar {
-	vertical-align: middle;
-	width: 50px;
-	height: 50px;
-	border-radius: 50%;
-  }
-
 
 .leftSideBar  {
 		  width: 70%;
@@ -70,4 +46,12 @@ button {
 		  border: #999999 1px solid;
 		  min-height: 60px;
 		  }
-
+.previewdiv  {
+		  width: 53%;
+		  float: left;
+		  }
+.preview-inner-left	  {
+		  padding: 5px 5px 5px 5px;
+		  margin-right: 5px;
+		  min-height: 60px;
+		  }
