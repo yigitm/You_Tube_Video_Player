@@ -11,9 +11,16 @@
 	float:left;
 	margin:0px;
 	line-height:50px;
-	padding-left:9px;
+	padding-left:290px;
+	padding-top: 8px;
 			}
-button {
+
+.search{
+	height: 45px;
+	width : 900px;
+}
+
+button_submit {
   background-color: #4CAF50;
   color: white;
   padding: 14px 20px;
@@ -22,6 +29,17 @@ button {
   cursor: pointer;
   width: 10%;
 }
+
+button_subscribe {
+	background-color: red;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	width: 10%;
+  }
+
 
 .leftSideBar  {
 		  width: 70%;
@@ -74,4 +92,8 @@ button {
 	width: 50px;
 	height: 50px;
 	border-radius: 50%;
+  }
+
+.coverDiv_left {
+	margin: 280px;
   }
