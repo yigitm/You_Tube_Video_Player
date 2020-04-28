@@ -1,14 +1,26 @@
 .topnav {
-  background-color: #333;
+  background-color: #4275f5;
   overflow: hidden;
 }
-.topnav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
+.logo{
+	color:#663399;
+	font-size:25px;
+	font-family:verdana;
+	text-align:left;
+	margin-top:0px;
+	float:left;
+	margin:0px;
+	line-height:50px;
+	padding-left:9px;
+			}
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 10%;
 }
 
 .leftSideBar  {
