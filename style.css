@@ -11,7 +11,7 @@
 	float:left;
 	margin:0px;
 	line-height:50px;
-	padding-left:290px;
+	padding-left:220px;
 	padding-top: 8px;
 			}
 
@@ -20,6 +20,16 @@
 	width : 900px;
 }
 
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 15px 0;
+  border: none;
+  cursor: pointer;
+  width: 10%;
+  margin-left: 20px;
+}
 button_submit {
   background-color: #4CAF50;
   color: white;
@@ -95,5 +105,6 @@ button_subscribe {
   }
 
 .coverDiv_left {
-	margin: 280px;
+	margin-left:220px;
+	margin-top: 30px;
   }
