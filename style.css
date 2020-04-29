@@ -24,10 +24,10 @@ button {
   background-color: #4CAF50;
   color: white;
   padding: 14px 20px;
-  margin: 15px 0;
+  margin: 10px 10px;
   border: none;
   cursor: pointer;
-  width: 10%;
+  width: 8%;
   margin-left: 20px;
   float: right;
 }
@@ -80,6 +80,7 @@ button_subscribe {
 .previewdiv  {
 		  width: 53%;
 		  float: left;
+		  padding-left: 0px;
 		  }
 .preview-inner-left	  {
 		  padding: 5px 5px 5px 5px;
@@ -153,4 +154,38 @@ grid system css adds
     float: left;
 }
 
+*/
+@media screen and (max-width: 800px) {
+  .topnav {
+  background-color: #4275f5;
+  width: 100%;
+}
+.leftSideBar  {
+		  width: 100%;
+		  float: left;
+		  }
+
+.rigthSideBar {
+		  width: 100%;
+		  float: left;
+		  }
+
+}
+/*
+@media screen and (max-width: 768px) {
+  .topnav {
+  background-color: #4275f5;
+  width: 100%;
+}
+.leftSideBar  {
+		  width: 60%;
+		  float: left;
+		  }
+
+.rigthSideBar {
+		  width: 40%;
+		  float: left;
+		  }
+
+}
 */
