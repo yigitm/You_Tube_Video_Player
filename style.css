@@ -110,4 +110,47 @@ button_subscribe {
 .coverDiv_left {
 	margin-left:0px;
 	margin-top: 30px;
+	}
+	
+/*
+grid system css adds
+
+	* {
+    box-sizing: border-box;
   }
+
+.nav{
+    width: 100%;
+    height: 100px;
+    border: 1px solid white;
+    box-sizing: border-box;
+}
+.language{
+    width: 100%;
+    height: 100px;
+    border: 1px solid white;
+    box-sizing: border-box;
+}
+.video{
+    width: 70%;
+    height: 100px;
+    border: 1px solid white;
+    box-sizing: border-box;
+    float: left;
+}
+.sideMenu{
+    width: 30%;
+    height: 100px;
+    border: 30px solid white;
+    box-sizing: border-box;
+    float: left;
+}
+.footer{
+    width: 100%;
+    height: 100px;
+    border: 1px solid white;
+    box-sizing: border-box;
+    float: left;
+}
+
+*/
