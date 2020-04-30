@@ -49,6 +49,8 @@ CSS Grid System
     padding: 5px;
 }
 
+/* For video part */
+/*
 .video{
     width: 70%;
     height: 500px;
@@ -57,10 +59,78 @@ CSS Grid System
     float: left;
     background-color: rgb(192, 43, 192);
 }
+*/
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: row;
+}
+.video {
+    width: 70%;
+    text-align: left;
+}
+#main-video {
+    width: 70%;
+}
+
+#main-video h3 {
+    margin-top: 10px;
+}
+
+.description1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    align-items: left;
+}
+
+.section1 {
+    display: flex;
+    align-items: left;
+}
+
+.section2 {
+    display: flex;
+}
+
+.section2 p {
+    margin-right: 10px;
+}
+.description2{
+    margin: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.channel h3 {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.channel h3 span {
+    font-weight: 100;
+    font-size: 16px;
+}
+
+#subscribe {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+}
 
 
 /* For Sidebar Part */
 .cover_hed_flex{
+  margin-top: 0px;
     display: flex;
     justify-content: space-between;
 }
@@ -86,7 +156,8 @@ CSS Grid System
 }
 
 .sideMenu{
-    text-align: right;
+  width: 30%;
+  text-align: right;
 }
 
 .sideVideo{
