@@ -66,10 +66,12 @@ CSS Grid System
     padding: 20px 0;
     display: flex;
     flex-direction: row;
+    background-color: #f7f5eb;
 }
 .video {
     width: 70%;
     text-align: left;
+    margin-right: 10px;
 }
 #main-video {
     width: 70%;
@@ -80,6 +82,7 @@ CSS Grid System
 }
 
 .description1 {
+    width: 66%;
     display: flex;
     justify-content: space-between;
     margin-top: 15px;
@@ -93,12 +96,14 @@ CSS Grid System
 
 .section2 {
     display: flex;
+
 }
 
 .section2 p {
     margin-right: 10px;
 }
 .description2{
+    width: 66%;
     margin: 15px 0;
     display: flex;
     justify-content: space-between;
@@ -126,10 +131,13 @@ CSS Grid System
     font-size: 16px;
 
 }
+.description3{
+  width:66%;
+}
 
 /* For Sidebar Part */
 .cover_hed_flex{
-  margin-top: 0px;
+  margin-top: -25px;
     display: flex;
     justify-content: space-between;
 }
@@ -155,6 +163,7 @@ CSS Grid System
 }
 
 .sideMenu{
+  margin-left: 30px;
   width: 30%;
   text-align: right;
 }
@@ -165,52 +174,22 @@ CSS Grid System
     display: inline;
     margin-right: 10px;
 }
-/*
-.sideTag_Up{ 
-    width: 40%;
-    height: auto;
-    font-size: 20px;
-    font-weight: bold; 
-    text-align: left;
-    display: flex;
-    word-wrap: break-word;
-}
-.sideTag_Mid{ 
-    width: 40%;
-    height: auto;
-    border: 1px solid blueviolet;
-    box-sizing: border-box;
-    
 
-}
-.sideTag_Mid.font{
-    font-size: 15px;
-    font-weight: lighter;
-    text-align: left; 
-    color:grey;
-    display: flex;
-    word-wrap: break-word;
-}
-.sideTag_Bottom{
-    width: 40%;
-    height: auto;
-    border: 1px solid blueviolet;
-    box-sizing: border-box;
-    float: right;
-    font-size: 15px;
-    font-weight: lighter;
-    text-align: left;
-    color:grey;
-    display: flex;
-    word-wrap: break-word;
-}
-*/
 .footer{
     width: 90%;
-    margin: 0 auto;
+    margin: 0 20px;
     padding: 20px 0;
+}
+.footerlogo{
+    text-align: center;
     display: flex;
     flex-direction: row;
+    justify-content: center;
+}
+.pp{
+  display: flex;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 /*
