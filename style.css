@@ -3,10 +3,11 @@ CSS Grid System
 */
 * {
     box-sizing: border-box;
-}
+  }
 
 /*  For nav bar */
-.nav {
+
+.nav{
     width: 100%;
     height: 90px;
     display: flex;
@@ -50,16 +51,7 @@ CSS Grid System
 }
 
 /* For video part */
-/*
-.video{
-    width: 70%;
-    height: 500px;
-    border: 1px solid red;
-    box-sizing: border-box;
-    float: left;
-    background-color: rgb(192, 43, 192);
-}
-*/
+
 .container {
     width: 90%;
     margin: 0 auto;
@@ -86,22 +78,23 @@ CSS Grid System
     display: flex;
     justify-content: space-between;
     margin-top: 15px;
-    align-items: left;
+    align-items: flex-end;
 }
 
 .section1 {
     display: flex;
-    align-items: left;
+    align-items: flex-start;
 }
 
 .section2 {
     display: flex;
+
 }
 
 .section2 p {
     margin-right: 10px;
 }
-.description2 {
+.description2{
     width: 66%;
     margin: 15px 0;
     display: flex;
@@ -128,183 +121,67 @@ CSS Grid System
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+
 }
-.description3 {
-    width: 66%;
+.description3{
+  width:66%;
 }
 
 /* For Sidebar Part */
-.cover_hed_flex {
-    margin-top: -25px;
+
+.cover_hed_flex{
+  margin-top: -25px;
     display: flex;
     justify-content: space-between;
 }
 .autoplay {
     display: flex;
-    align-items: top;
 }
 
-.container_flex {
-    display: flex;
+.container_flex{
+   display: flex;
     margin: 10px 0;
     align-items: center;
 }
 
 .container_flex .container_flex_col h3 {
-    font-size: 15px;
-    text-align: left;
+      font-size: 15px;
+    text-align: left;  
 }
 
 .container_flex .container_flex_col p {
-    font-size: 14px;
-    text-align: left;
+     font-size: 14px;
+    text-align: left;    
 }
 
-.sideMenu {
-    margin-left: 30px;
-    width: 30%;
-    text-align: right;
+.sideMenu{
+  margin-left: 30px;
+  width: 30%;
+  text-align: right;
 }
 
-.sideVideo {
+.sideVideo{
     max-width: 170px;
     height: 130px;
     display: inline;
     margin-right: 10px;
 }
 
-.footer {
+/*  footer section */
+
+.footer{
     width: 90%;
     margin: 0 20px;
     padding: 20px 0;
 }
-.footerlogo {
+.footerlogo{
     text-align: center;
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
-.pp {
-    display: flex;
-    display: inline-block;
-    vertical-align: middle;
+.pp{
+  display: flex;
+  display: inline-block;
+  vertical-align: middle;
 }
-
-/*
-Main CSS
-*/
-/*
-.topnav {
-    background-color: #4275f5;
-    overflow: hidden;
-  }
-  .logo{
-      color:#663399;
-      font-size:25px;
-      font-family:verdana;
-      text-align:left;
-      margin-top:0px;
-      float:left;
-      margin:0px;
-      line-height:50px;
-      padding-left:15px;
-      padding-top: 8px;
-              }
-  
-  .search{
-      height: 45px;
-      width : 900px;
-  }
-  
-  button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 14px 20px;
-    margin: 15px 0;
-    border: none;
-    cursor: pointer;
-    width: 10%;
-    margin-left: 20px;
-    float: right;
-  }
-  button_submit {
-    background-color: #4CAF50;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    width: 10%;
-  }
-  
-  button_subscribe {
-      background-color: red;
-      color: white;
-      padding: 14px 20px;
-      margin: 8px 0;
-      border: none;
-      cursor: pointer;
-      width: 10%;
-      margin-right: 225px;
-    }
-  
-  
-  .leftSideBar  {
-            width: 70%;
-            float: left;
-            }
-  
-  .rigthSideBar {
-            width: 30%;
-            float: left;
-            }
-  
-  .inner-left	  {
-            padding: 5px 5px 5px 5px;
-            margin-right: 10px;
-            border: #999999 1px solid;
-            min-height: 60px;
-            margin-top: 30px;
-            }
-  
-  .inner-right	  {
-            font-size: 11px;
-            padding: 5px 5px 5px 5px;
-            border: #999999 1px solid;
-            min-height: 60px;
-            }
-  .previewdiv  {
-            width: 53%;
-            float: left;
-            }
-  .preview-inner-left	  {
-            padding: 5px 5px 5px 5px;
-            margin-right: 5px;
-            min-height: 60px;
-            }
-  .like {
-    width: 30px;
-    height: 30px;
-  }
-  
-  .dislike {
-      width: 30px;
-      height: 30px;
-    }
-  
-  .views {
-      font-size: 15px;
-    }
-  
-  .avatar {
-      vertical-align: middle;
-      width: 50px;
-      height: 50px;
-      border-radius: 50%;
-    }
-  
-  .coverDiv_left {
-      margin-left:0px;
-      margin-top: 30px;
-      }
-      */
