@@ -3,10 +3,10 @@ CSS Grid System
 */
 * {
     box-sizing: border-box;
-  }
+}
 
-  /*  For nav bar */
-.nav{
+/*  For nav bar */
+.nav {
     width: 100%;
     height: 90px;
     display: flex;
@@ -96,13 +96,12 @@ CSS Grid System
 
 .section2 {
     display: flex;
-
 }
 
 .section2 p {
     margin-right: 10px;
 }
-.description2{
+.description2 {
     width: 66%;
     margin: 15px 0;
     display: flex;
@@ -129,15 +128,14 @@ CSS Grid System
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-
 }
-.description3{
-  width:66%;
+.description3 {
+    width: 66%;
 }
 
 /* For Sidebar Part */
-.cover_hed_flex{
-  margin-top: -25px;
+.cover_hed_flex {
+    margin-top: -25px;
     display: flex;
     justify-content: space-between;
 }
@@ -146,50 +144,50 @@ CSS Grid System
     align-items: top;
 }
 
-.container_flex{
-   display: flex;
+.container_flex {
+    display: flex;
     margin: 10px 0;
     align-items: center;
 }
 
 .container_flex .container_flex_col h3 {
-      font-size: 15px;
-    text-align: left;  
+    font-size: 15px;
+    text-align: left;
 }
 
 .container_flex .container_flex_col p {
-     font-size: 14px;
-    text-align: left;    
+    font-size: 14px;
+    text-align: left;
 }
 
-.sideMenu{
-  margin-left: 30px;
-  width: 30%;
-  text-align: right;
+.sideMenu {
+    margin-left: 30px;
+    width: 30%;
+    text-align: right;
 }
 
-.sideVideo{
+.sideVideo {
     max-width: 170px;
     height: 130px;
     display: inline;
     margin-right: 10px;
 }
 
-.footer{
+.footer {
     width: 90%;
     margin: 0 20px;
     padding: 20px 0;
 }
-.footerlogo{
+.footerlogo {
     text-align: center;
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
-.pp{
-  display: flex;
-  display: inline-block;
-  vertical-align: middle;
+.pp {
+    display: flex;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 /*
