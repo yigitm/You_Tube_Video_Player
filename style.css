@@ -9,7 +9,7 @@ CSS Grid System
 
 .nav{
     width: 100%;
-    height: 90px;
+    height: 85px;
     display: flex;
     flex-direction: row;
     background-color: white;
@@ -19,7 +19,7 @@ CSS Grid System
 }
 
 .icon-img {
-    width: 30px;
+    width: 50px;
 }
 
 .logo img {
@@ -41,13 +41,23 @@ CSS Grid System
 }
 
 .search {
-    flex-grow: 3;
+    flex-grow: 2;
 }
 
 .search input[type="text"] {
     width: 50%;
     height: 30px;
     padding: 5px;
+}
+
+#signin{
+    width: 60px; 
+    background-color:#1f508c;
+    padding: 7px 7px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 5px;
 }
 
 /* For video part */
@@ -93,6 +103,17 @@ CSS Grid System
 
 .section2 p {
     margin-right: 10px;
+}
+
+#share {
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+
 }
 .description2{
     width: 66%;
