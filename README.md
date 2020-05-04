@@ -1,16 +1,16 @@
-You Tube Home Page / Embedding Images & Video
+#You Tube Home Page / Embedding Images & Video
 
 This is the clone for YouTube homepage for embedding images & videos using basic HTML and CSS features.
 
     <img src="images/Embed_Video_Images.png">
 
-Technologies Used:
+#Technologies Used:
 
 -HTML
 -CSS
 -VS Code Editor
 
-Live Version:
+#Live Version:
 
 https://github.com/yigitm/You_Tube_Video_Player
 
