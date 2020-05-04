@@ -9,7 +9,7 @@ YouTube homepage for embedding images & videos using basic HTML and CSS features
 - Rigth side video column
 - Footer
 
-![Embed_Video_Images](https://user-images.githubusercontent.com/22434660/80799773-5c34be00-8bc5-11ea-83f9-4e760a5f32d8.png)
+![Embed_Video_Image](https://user-images.githubusercontent.com/24368914/80959651-ea03e980-8e0f-11ea-88fd-287af404ca97.png)
 
 # Technologies Used:
 
