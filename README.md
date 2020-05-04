@@ -2,7 +2,7 @@
 
 This is the clone for YouTube homepage for embedding images & videos using basic HTML and CSS features.
 
-    <img src="images/Embed_Video_Images.png">
+![Embed_Video_Images](https://user-images.githubusercontent.com/22434660/80799773-5c34be00-8bc5-11ea-83f9-4e760a5f32d8.png)
 
 #Technologies Used:
 
