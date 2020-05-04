@@ -218,7 +218,7 @@ CSS Grid System
  text-decoration: none;
  color: rgb(100, 98, 98);
  font-size: 12px;
- font-weight: light;
+ font-weight: lighter;
  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
   "Lucida Sans", Arial, sans-serif;
 }
@@ -227,7 +227,7 @@ CSS Grid System
 @media only screen and (max-width: 800px) {
  .flex-cover-footer {
   display: flex;
-  flex-direction: col;
+  flex-direction: column;
   flex-flow: column;
   align-items: center;
   justify-content: center;
