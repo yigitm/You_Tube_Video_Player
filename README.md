@@ -2,7 +2,7 @@
 
 YouTube homepage for embedding images & videos using basic HTML and CSS features.
 
-- 4 Main sections
+# Main sections
 
 - Navigation row
 - Left video column
