@@ -1,82 +1,257 @@
-<html>
-<head>
-<link rel="stylesheet" type="text/css" href="style.css">
-<title>Youtube Video Player</title>
-</head>
-<body>
- <div class="topnav">
-  <div class="logo"><a href="#"><img src="logo.png"></a></div>
-  <form style="display:inline-block;line-height:30px;padding-right:14px; margin-left: 105px">
-   <input type="text" name="searchbar" placeholder="search.." size="70">
-   <input type="submit" name="submit" value="search">
-   <a href="#"><img src="Upload.png" alt="uplo" align="middle" style="margin-left:40px;" ></a>
-   <button type="submit">Login</button>
- </form>
-</div>
- 
- <div class="leftSideBar">
-  <div class="coverDiv_left">
-    <div class="inner_left">
-        <div style="padding-left:16px">
-  			<h2>Videos</h2>
-  		</div>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/QV0kVNvkMxc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <link
+   rel="stylesheet"
+   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <title>Embed Video & Images</title>
+ </head>
+ <body>
+  <!-- Nav-bar section -->
+  <nav class="nav">
+   <a href="#"
+    ><i
+     class="fa fa-bars"
+     aria-hidden="true"
+     style="width:50px;font-size:30px; color: black;"
+    ></i
+   ></a>
+   <div class="logo">
+    <a href="#"
+     ><i
+      class="fa fa-youtube-play"
+      aria-hidden="true"
+      style=" width:50px; font-size:50px; color: red;"
+     ></i
+    ></a>
    </div>
-   
-   <div class="left_content">
-      <h2>Git & GitHub Tutorial for Beginners #8 - Branches</h2>
-
-      <div class="left_buttons">
-        <div style="border:1px;">
-          <div style="float: left; border: 10px solid white;"><img src="avatar.png" alt="Avatar" class="avatar"></div>
-          <div style="float: left; border: 10px solid white;"><button_submit type="submit" name="Share" style="width: 90px">Share</button></div>
-          <div style="float: left; border: 10px solid white;"><p class="views">Views: 100.000</p></div>
-          <div style="float: left; border: 10px solid white;"><img class="like"; src="like.png"></a></div>
-          <div style="float: left; border: 10px solid white;"><img class="dislike"; src="dislike.jpeg"></div> 
-          <div style="float: left; border: 10px solid white;"><button_subscribe type="submit" name="Subscribe" style="width: 90px">Subscribe</button></div>      
-</div>
-        </div>
-     </div>
-
-        
+   <div class="search">
+    <form id="search">
+     <input type="text" placeholder="Search" />
+     <button style="height: 31px;">Search</button>
+    </form>
    </div>
-   
- </div>
- 
- <div class=" rigthSideBar">
-  	<div class="inner_right">
-  		<div style="padding-left:16px">
-  			<h2>Recommended Videos</h2>
-  		</div>
-      <div class="previewdiv"> 
-        <div class="preview-inner-left">
-  		<iframe width="200" height="200" src="https://www.youtube.com/embed/videoseries?list=PLsEYEVJFmHH4zvbkC9PqHpXrscQh9O0O1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+   <div class="profile_icons">
+    <a href="#"
+     ><i
+      class="fa fa-th"
+      aria-hidden="true"
+      style="font-size:30px; color:#363632;"
+     ></i
+    ></a>
+    <a href="#"
+     ><i
+      class="fa fa-upload"
+      aria-hidden="true"
+      style="width:50px; font-size:30px; color:#363632;"
+     ></i
+    ></a>
+    <a href="#"
+     ><i
+      class="fa fa-bell"
+      aria-hidden="true"
+      style="width:50px; font-size:30px; color:#363632;"
+     ></i
+    ></a>
+    <button id="signin">Sign In</button>
+   </div>
+  </nav>
+  <!-- Video section -->
+  <div class="container">
+   <section class="video">
+    <div id="main-video">
+     <iframe
+      width="800"
+      height="400"
+      src="https://www.youtube.com/embed/QV0kVNvkMxc"
+      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+     ></iframe>
+     <h2>Git & GitHub Tutorial for Beginners #8 - Branches</h2>
     </div>
-     </div> 
-      <strong>Window Xp Hacked</strong>
-     <p>948 views</p>
-      <div class="previewdiv"> 
-        <div class="preview-inner-left">
-      <iframe width="200" height="200" src="https://www.youtube.com/embed/2Dys9sb6yUA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-     </div> 
-     <br></br>
-     <br></br>
-     <br></br>
-     <br></br>
-      <strong>Window 7 Hacked</strong>
-     <p>342 views</p>
-     <div class="previewdiv"> 
-        <div class="preview-inner-left">
-     <iframe width="200" height="200" src="https://www.youtube.com/embed/4nKGknsIbxI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="description1">
+     <div class="section1">
+      <span>100,001 views</span>
      </div>
-     </div> 
-     <br></br><br></br><br></br><br></br>
-      <strong>Android Hacking</strong>
-     <p>545 views</p>
+     <div class="section2">
+      <p>
+       <a href="#"
+        ><i
+         class="fa fa-thumbs-up"
+         aria-hidden="true"
+         style="width:43px; font-size:40px; color:#363632;"
+        ></i></a
+       >235
+      </p>
+      <p>
+       <a href="#"
+        ><i
+         class="fa fa-thumbs-down"
+         aria-hidden="true"
+         style="width:43px; font-size:40px; color:#363632;"
+        ></i></a
+       >35
+      </p>
+      <p>
+       <button id="share">Share</button>
+      </p>
+     </div>
+    </div>
+    <hr />
+    <div class="description2">
+     <div class="channel">
+      <a href="#"
+       ><img class="icon-img" src="images/avatar.png" alt="avatar"
+      /></a>
+      <h3>
+       Github<br />
+       <span>972 followers</span>
+      </h3>
+     </div>
+     <button id="subscribe">SUBSCRIBE</button>
+    </div>
+    <div class="description3">
+     <h3>
+      Published on Feb 27, 2014
+     </h3>
+     <p>
+      How do you contribute to open source? In this video, I'll describe the
+      easiest way to make a simple contribution to an open source project --
+      without using the command line, a text editor, "forking a repo", or even
+      touching Git outside of Github. I'll also describe what kinds of
+      contributions open source software projects are typically looking for. As
+      an example, I use submitting a student solution to a web development
+      exercise from The Odin Project, a free online curriculum for learning web
+      development with Ruby on Rails. You can find more information about that
+      project at http://theodinproject.com.
+     </p>
+    </div>
+   </section>
+   <!-- Side-bar section -->
+   <aside class="sideMenu">
+    <div class="cover_hed_flex">
+     <h5>Up next</h5>
+     <h5 class="autoplay">
+      <span>Autoplay</span>
+      <a href="#"
+       ><i
+        class="fa fa-toggle-on"
+        aria-hidden="true"
+        style="width:60px; font-size:30px; color:#363632;"
+       ></i
+      ></a>
+     </h5>
+    </div>
+    <div class="container_flex">
+     <img
+      class="sideVideo"
+      src="http://i3.ytimg.com/vi/lQM6dbf1uGg/hqdefault.jpg"
+      alt="window 7"
+     />
+     <div class="container_flex_col">
+      <h3>Nmap Tutorial | Understand Basic in 15 min | Hacking Tool</h3>
+      <p>Sudo</p>
+      <p>675 Views</p>
+     </div>
+    </div>
+    <hr />
+    <div class="container_flex">
+     <img
+      class="sideVideo"
+      src="http://i3.ytimg.com/vi/79U-tn4qLm0/hqdefault.jpg"
+      alt="window Xp"
+     />
+     <div class="container_flex_col">
+      <h3>Honeypot presentation with practical demonstration.</h3>
+      <p>Sudo</p>
+      <p>948 Views</p>
+     </div>
+    </div>
+    <div class="container_flex">
+     <img
+      class="sideVideo"
+      src="http://i3.ytimg.com/vi/79U-tn4qLm0/hqdefault.jpg"
+      alt="window Xp"
+     />
+     <div class="container_flex_col">
+      <h3>Windows Xp Hacked</h3>
+      <p>Sudo</p>
+      <p>948 Views</p>
+     </div>
+    </div>
+    <div class="container_flex">
+     <img
+      class="sideVideo"
+      src="http://i3.ytimg.com/vi/lQM6dbf1uGg/hqdefault.jpg"
+      alt="window 7"
+     />
+     <div class="container_flex_col">
+      <h3>Windows 7 Hacked</h3>
+      <p>Sudo</p>
+      <p>342 Views</p>
+     </div>
+    </div>
+    <div class="container_flex">
+     <img
+      class="sideVideo"
+      src="http://i3.ytimg.com/vi/79U-tn4qLm0/hqdefault.jpg"
+      alt="android"
+     />
+     <div class="container_flex_col">
+      <h3>Android Hacking</h3>
+      <p>Sudo</p>
+      <p>545 Views</p>
+     </div>
+    </div>
+    <div class="container_flex">
+     <img
+      class="sideVideo"
+      src="http://i3.ytimg.com/vi/79U-tn4qLm0/hqdefault.jpg"
+      alt="android"
+     />
+     <div class="container_flex_col">
+      <h3>Hack a system remotely using njRAT</h3>
+      <p>Sudo</p>
+      <p>545 Views</p>
+     </div>
+    </div>
+   </aside>
+  </div>
+  <!-- Footer section -->
+  <section class="col-footer">
+   <div class="flex-cover-footer">
+    <div>
+     <a href="#"
+      ><img class="logo-footer" src="images/logo.png" alt="logo-icon"
+     /></a>
+    </div>
+    <div class="margin-right"><a href="#" class="decoration">About</a></div>
+    <div class="margin-right"><a href="#" class="decoration">Press</a></div>
+    <div class="margin-right">
+     <a href="#" class="decoration">&#169; Copyright</a>
+    </div>
+    <div class="margin-right"><a href="#" class="decoration">Creators</a></div>
+    <div class="margin-right"><a href="#" class="decoration">Advertise</a></div>
+    <div><a href="#" class="decoration">Developers</a></div>
    </div>
-  	</div>    
-</div>
- 
+   <div><hr /></div>
+   <!--Divider bar-->
+   <div class="flex-cover-footer" id="margin-sub-items">
+    <div class="margin-right"><a href="#" class="sub-decoration">Terms</a></div>
+    <div class="margin-right">
+     <a href="#" class="sub-decoration">Privacy</a>
+    </div>
+    <div class="margin-right">
+     <a href="#" class="sub-decoration">Policy &#38; Safety</a>
+    </div>
+    <div class="margin-right">
+     <a href="#" class="sub-decoration">Test new features</a>
+    </div>
+   </div>
+  </section>
  </body>
 </html>
