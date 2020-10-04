@@ -18,18 +18,22 @@ YouTube homepage for embedding images & videos using basic HTML and CSS features
 
 # Live Version:
 
-https://github.com/yigitm/You_Tube_Video_Player
+[Live link](https://github.com/yigitm/You_Tube_Video_Player)
 
 # Authors:
 
-- Dipesh Kumar
+👤 **Dipesh Kumar**
 
-Github: @Dipeshtwis
-Twitter: @97deepeshkumar
-Linkedin: linkedni : https://www.linkedin.com/in/dipesh-kumar-b6ab88134/
+- [Github](https://github.com/Dipeshtwis)
+- [Twitter](https://twitter.com/97deepeshkumar)
+- [Linkedin](https://www.linkedin.com/in/dipesh-kumar-b6ab88134/)
 
-- Yiğit Mersin
+👤 **Yiğit Mersin**
 
-Github: @yigitm
-Twitter: @ygtmrsn
-Linkedin: https://www.linkedin.com/in/yigitmersin
+- [Github](https://github.com/yigitm)
+- [Twitter](https://twitter.com/ygtmrsn)
+- [Linkedin](https://www.linkedin.com/in/yigitmersin)
+
+## Acknowledgments
+
+- Thanks to Microverse and The Odin Project.
